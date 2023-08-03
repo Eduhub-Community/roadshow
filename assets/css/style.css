@@ -789,3 +789,33 @@ img#feature__img1 {
 		left: 3rem;
 	}
 }
+
+.footer {
+	padding: 2rem;
+}
+
+.footer-container{
+	display: flex;
+	flex-direction: column;
+}
+.connect-us{
+	font-size: clamp(1.5rem, 1.1vw, 1.5rem);
+	font-weight: 700;
+	text-align: center;
+}
+.socials{
+	display: flex;
+	justify-content: center;
+}
+.icons{
+	margin: .6em;
+}
+
+a:link{
+	text-decoration: none;
+}
+#linkedin{
+	margin-right: .2em;
+}
+
+
